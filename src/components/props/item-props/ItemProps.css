@@ -1,0 +1,20 @@
+.item-img {
+    width: 400px;
+    height: 340px;
+
+}
+
+.item-bg-gray {
+    background-color: rgb(175, 155, 155);
+}
+
+.item-name {
+    font-size: 17px;
+
+}
+
+.price {
+    color: gray;
+    font-weight: 600;
+    font-size: 18px;
+}

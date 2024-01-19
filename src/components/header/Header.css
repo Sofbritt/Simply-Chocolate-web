@@ -1,0 +1,141 @@
+
+
+.free-ad {
+    background-color: rgb(68, 39, 16);
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ad-link {
+    color: white;
+    text-decoration: none;
+}
+
+.ad-link:hover {
+    text-decoration: underline;
+    color: blanchedalmond;
+}
+
+.white-color {
+    color: white;
+}
+
+.logo {
+    margin-top: 20px;
+    font-size: 33px;
+    font-weight: 700;
+}
+
+.header {
+    background-image: url(https://simplychocolatecph.com/cdn/shop/files/Design_uden_navn_15.png?v=1703276107&width=1400);
+    height: 550px;
+}
+
+.header-menu {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+
+}
+
+.header-menu:hover {
+    background-color: white;
+    color: black;
+
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+
+
+li {
+    float: left;
+}
+
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.search-div {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+
+.header-icons {
+    float: left;
+}
+
+.icon {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.premium {
+    color: white;
+    margin-top: 150px;
+    width: 480px;
+    padding: 15px;
+}
+
+.big-title {
+    font-size: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.header-button {
+    color: white;
+    width: 130px;
+    height: 45px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(53, 35, 19);
+    font-weight: 800;
+}
+
+.shop {
+    background-color: rgb(247, 232, 203);
+    color: black;
+}
+
+.shop:hover {
+    color: white;
+    background-color: rgb(53, 35, 19);
+}
+
+.learn {
+    color: white;
+    background-color: rgb(53, 35, 19);
+    margin-left: 15px;
+}
+
+.learn:hover {
+    background-color: rgb(247, 232, 203);
+    color: black;
+}
+
+.header-icons {
+    display: flex;
+    justify-content: space-evenly;
+}
