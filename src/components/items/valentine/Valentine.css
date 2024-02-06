@@ -1,0 +1,30 @@
+.item-div {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-around;
+}
+
+.all-natural {
+   margin: 0;
+}
+
+.natural-title {
+    color: rgb(29, 29, 29);
+    font-size: 26px;
+    font-weight: 800;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.natural-p {
+   
+   width: 65%;
+    font-size: 14px;
+}
+
+.link {
+    color: rgb(29, 29, 29);
+}
+
+.slide{
+    width: 100%;
+}

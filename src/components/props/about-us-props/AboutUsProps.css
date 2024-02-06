@@ -1,0 +1,46 @@
+.main-about-div {
+    margin-top: 55px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 7%;
+
+}
+
+.about-img {
+    width: 540px;
+    height: 590px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.about-us {
+    margin-top: 25%;
+    display: block;
+}
+
+.name-of-about {
+    color: rgb(29, 29, 29);
+    font-weight: 800;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: start;
+    margin-left: 55px;
+}
+
+.about-title {
+    color: rgb(29, 29, 29);
+    font-weight: 700;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: start;
+    margin-left: 55px;
+}
+
+.about {
+    color: rgb(29, 29, 29);
+    font-weight: 400;
+    display: flex;
+    justify-content: start;
+    width: 50%;
+}

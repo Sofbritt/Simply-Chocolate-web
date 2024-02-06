@@ -1,0 +1,19 @@
+.btns {
+    width: 120px;
+    height: 45px;
+    color: rgb(105, 105, 105);
+    background-color: white;
+    font-weight: 600;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 20px;
+    border-radius: 15px;
+    font-size: 13px;
+    border: none;
+}
+
+.btns:hover {
+  text-decoration: underline;
+    color: rgb(29, 29, 29);
+    font-weight: 800;
+    font-size: 18px;
+}

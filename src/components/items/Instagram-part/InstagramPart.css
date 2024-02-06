@@ -1,0 +1,52 @@
+.instagram-div {
+    margin-top: 100px;
+}
+
+.each-insta-img {
+    width: 240px;
+    height: 250px;
+}
+
+.each-insta-img:hover {
+    opacity: 0.7;
+}
+
+.insta-imgs {
+    display: flex;
+    justify-content: center;
+}
+
+.insta-icon {
+    position: absolute;
+    margin-top: 7%;
+    color: white;
+}
+
+.simply-title {
+    color: rgb(29, 29, 29);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 900;
+    display: flex;
+    justify-content: start;
+    margin-left: 40px;
+
+}
+
+p {
+    color: rgb(29, 29, 29);
+    font-weight: 400;
+    font-size: 14px;
+    display: inline-block;
+    justify-content: start;
+    width: 95%;
+    margin-left: 40px
+}
+
+a{
+    display:inline-block;
+    color: black;
+}
+
+a:hover{
+    text-decoration: none;
+}
