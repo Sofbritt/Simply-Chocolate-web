@@ -1,0 +1,81 @@
+.detail-div {
+    background-color: rgb(255, 227, 86);
+    height: 670px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.detail-small-img-div {
+    display: flex;
+    flex-direction: column;
+}
+
+.detail-small-img {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+
+
+.detail-img {
+    border: 2px solid black;
+    width: 500px;
+    height: 500px;
+
+}
+
+.detail-information {
+    width: 40%;
+}
+
+.detail-name-ingridients-price {
+    color: white;
+    font-weight: 800;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 50%;
+}
+
+.detail-ingridients {
+    font-size: 26px;
+}
+
+.detail-price {
+    font-size: 16px;
+}
+
+.detail-description {
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    width: 70%;
+}
+
+.add-to-cart-btn {
+    border: 1px solid white;
+    width: 410px;
+    height: 45px;
+    font-size: 15px;
+    color: white;
+    font-weight: 700;
+    background-color: rgb(206, 206, 206);
+    margin-right: 100px;
+    cursor: pointer;
+}
+
+.add-to-cart-btn:hover {
+    background-color: rgb(229, 229, 229);
+
+}
+
+.detail-gram {
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    width: 30%;
+}

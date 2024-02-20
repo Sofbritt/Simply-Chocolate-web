@@ -1,0 +1,40 @@
+/* .vegan-ad-div {
+    background-color: rgb(238, 236, 236);
+    height: 550px;
+} */
+
+
+.span-on-gluten-free-img {
+    color: rgb(29, 29, 29);
+}
+
+.gluten-free-imgs {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 45px;
+}
+
+.gluten-free-img {
+    width: 550px;
+    height: 430px;
+}
+
+.span-on-gluten-free-img {
+    color: white;
+    position: absolute;
+    font-size: 27px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 22%;
+    margin-left: 10%;
+}
+
+.link-to-gluten-free{
+    color: white;
+    position: absolute;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 26%;
+    margin-left: 15%;
+}

@@ -1,0 +1,99 @@
+.premium {
+    color: white;
+    margin-top: 100px;
+    width: 480px;
+    padding: 15px;
+    margin-left: 35px;
+}
+
+.big-title {
+    font-size: 45px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.premium-btns{
+    display: flex;
+    justify-content:center;
+    width: 20%;
+    margin-left: 50px;
+    margin-top: 15px;
+}
+.shop {
+    font-size: 13px;
+    font-weight: 600;
+    color: black;
+    border-radius: 5px;
+    border: 1px solid rgb(49, 29, 18);
+    background: none;
+    width: 110px;
+    height: 45px;
+    position: relative;
+    cursor: pointer;
+}
+
+.shop::before {
+    position: absolute;
+    content: '';
+    width: 0;
+    height: 100%;
+    background: rgb(49, 29, 18);
+    top: 0;
+}
+
+.shop:hover {
+    color: white;
+    transition: 1s;
+}
+
+.shop1:hover::before {
+    width: 100%;
+    left: 0;
+    transition: 1s;
+    z-index: -1;
+}
+
+.learnBtn{
+    font-size: 13px;
+    font-weight: 600;
+    color: black;
+    border-radius: 5px;
+    border: 1px solid rgb(49, 29, 18);
+    background: none;
+    width: 110px;
+    height: 45px;
+    /* margin-top: 50px; */
+    margin-left: 10px;
+    position: relative;
+    cursor: pointer;
+}
+
+.learnBtn::before{
+    position: absolute;
+    content: '';
+    width: 0;
+    height: 100%;
+    background: rgb(49, 29, 18);
+    top: 0;
+}
+
+.learnBtn:hover{
+    color: white;
+    transition: 1s;
+}
+
+.learnBtn1:hover::before {
+    width: 100%;
+    left: 0;
+    transition: 1s;
+    z-index: -1;
+}
+
+
+.big-Bg-img{
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    z-index: -1;
+   top: 0;
+  }

@@ -1,0 +1,19 @@
+.gift-item-div{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.gift-carousel{
+    margin-top: 70px;
+}
+
+.gift-see-more-btn{
+    color: white;
+    background-color: rgb(63, 42, 29);
+    width: 120px;
+    height: 45px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+}

@@ -1,6 +1,7 @@
 import React from "react";
 import './InstagramPart.css'
 import InstaImgsProps from "./InstaImgsProps";
+import SpanProps from "../../props/span-props/SpanProps";
 
 function InstagramPart() {
     return (
@@ -20,23 +21,26 @@ function InstagramPart() {
                 <InstaImgsProps img='https://scontent.cdninstagram.com/v/t51.2885-15/418821801_1763909600699628_318948076365315173_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=18de74&_nc_ohc=Gbgb6b0_mCYAX-b19fC&_nc_ht=scontent.cdninstagram.com&edm=ANo9K5cEAAAA&oh=00_AfALyWXjxJgP_R6ziOroei-DgNcRLQlszE06lN2O5mDmFQ&oe=65C1D6F2' />
             </div>
             <div>
-                <h1 className="simply-title" >Simply - Official gourmet chocolate webshop</h1>
-                <p>
-                At Simply, we create responsible and fair gourmet chocolate in exclusive quality with only the best natural ingredients. Nothing else. We have a luxurious range of <a href="" >gift boxes</a> and <a href="" >chocolate boxes</a> for every special occasion, holidays like Christmas and Easter or just as a sweet touch on the dullest of all dull gray Mondays.
-                </p>
-                <p>
-                We also have a tempting selection of premium <a href="" >chocolate bars</a> that you can keep all to yourself. Whether you like filled chocolates with crunch and caramel or solid chocolate with sea salt and nuts, you will surely find more than one variety in the shop that will make your mouth water. Mix your favorite chocolate bars and chocolate slabs piece by piece or embark on exciting flavor explosions with our <a href="" >bar kits</a> and mixed boxes with small appetizing mini chocolates in bites , where you can sink your teeth into all our exclusive flavors with either dark chocolate, light chocolate or white chocolate . Created with honest and fair quality raw materials by Danish chocolatiers.
-                </p>
-                <p>
-                Give your workout a kick in the ass with our selection of delicious <a href="" >protein bars with chocolate</a> completely free of artificial additives. Get superpowers after training with a natural <a href="" >protein bar</a> from Simply made from pure quality ingredients that actually taste good. Here in the webshop you will also find our complete range of protein bars gathered in a hard-hitting <a href="" >bar kit</a> .
-                </p>
-                <p>
-                The chocolate from Simply has both attitude and attitude, and you can be sure that it is produced with respect for both people and our planet. Indulge yourself with our<a href="" >limited editions</a> , where you will find the unique of our temptations in glossy paper, which are visiting our permanent assortment here and now. Our beautifully wrapped chocolates are a true mecca of color and the packaging speaks for itself, because <a href="" >the boxes</a> from Simply contain something quite extraordinary.
-                </p>
-                <p>
-                We always carry the complete selection of our premium chocolate here in the official webshop for Simply, so you can shop for exactly the chocolate that suits your taste. Experience our entire sweet universe right here in the chocolate shop, which is always open, and see if you can resist the temptation to shop for one of each online. You can also write a personal greeting on one of our postcards and send the chocolate to someone you love. You know very well that there is always a reason for exceptionally good chocolate.
-                </p>
-                
+                <SpanProps
+                MainTitle='Simply - Official gourmet chocolate webshop'
+                 LongSpan='At Simply, we create responsible and fair gourmet chocolate in exclusive quality with only the best natural ingredients. Nothing else. We have a luxurious range of gift boxes and chocolate boxes for every special occasion, holidays like Christmas and Easter or just as a sweet touch on the dullest of all dull gray Mondays.
+                We also have a tempting selection of premium chocolate bars that you can keep all to yourself. Whether you like filled chocolates with crunch and caramel or solid chocolate with sea salt and nuts, you will surely find more than one variety in the shop that will make your mouth water. Mix your favorite chocolate bars and chocolate slabs piece by piece or embark on exciting flavor explosions with our bar kits and mixed boxes with small appetizing mini chocolates in bites , where you can sink your teeth into all our exclusive flavors with either dark chocolate, light chocolate or white chocolate . Created with honest and fair quality raw materials by Danish chocolatiers.
+               
+               Give your workout a kick in the ass with our selection of delicious protein bars with chocolate completely free of artificial additives. Get superpowers after training with a natural protein bar from Simply made from pure quality ingredients that actually taste good. Here in the webshop you will also find our complete range of protein bars gathered in a hard-hitting bar kit .
+               
+
+
+               The chocolate from Simply has both attitude and attitude, and you can be sure that it is produced with respect for both people and our planet. Indulge yourself with ourlimited editions , where you will find the unique of our temptations in glossy paper, which are visiting our permanent assortment here and now. Our beautifully wrapped chocolates are a true mecca of color and the packaging speaks for itself, because the boxes from Simply contain something quite extraordinary.
+
+
+               We always carry the complete selection of our premium chocolate here in the official webshop for Simply, so you can shop for exactly the chocolate that suits your taste. Experience our entire sweet universe right here in the chocolate shop, which is always open, and see if you can resist the temptation to shop for one of each online. You can also write a personal greeting on one of our postcards and send the chocolate to someone you love. You know very well that there is always a reason for exceptionally good chocolate.
+               '
+                />
+
+
+
+
+
             </div>
         </div>
     )

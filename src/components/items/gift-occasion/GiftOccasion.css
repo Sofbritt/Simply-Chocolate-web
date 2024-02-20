@@ -10,6 +10,10 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+.gift-description{
+margin-bottom: 40px;
+}
+
 .each-gift-span {
     color: white;
     margin-top: 170px;

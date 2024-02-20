@@ -1,0 +1,46 @@
+.shop-div {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.categories-title {
+    color: rgb(21, 21, 21);
+    font-weight: 800;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.categories-div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.categories {
+    background-color: transparent;
+    color: rgb(151, 148, 148);
+    font-size: 14px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.shop-products {
+    display: flex;
+}
+
+.title-arrows {
+    display: flex;
+    justify-content: space-between;
+    width: 350px;
+}
+
+.arrows-div {
+    display: block;
+}
+
+.arrow {
+    color: rgb(21, 21, 21);
+    margin-left: 25px;
+}
+
+.arrow {
+    cursor: pointer;
+}

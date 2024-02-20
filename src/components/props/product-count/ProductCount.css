@@ -1,0 +1,29 @@
+.shop-count-select {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    color: rgb(103, 103, 103);
+    font-weight: 700;
+}
+
+.product-count {
+    width: 85%;
+}
+
+.select-hr {
+    height: 55px;
+}
+
+.select {
+    color: rgb(103, 103, 103);
+    font-weight: 700;
+    font-size: 14px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: none;
+    width: 170px;
+}
+
+.option {
+    color: rgb(137, 137, 137);
+    font-weight: 400;
+}

@@ -1,0 +1,28 @@
+.each-gift-item{
+    width: 370px;
+    margin-top: 75px;
+}
+
+.gift-item-img{
+    width: 370px;
+    height: 370px;
+}
+
+.gift-item-title{
+    color: rgb(29, 29, 29);
+    font-weight: 700;
+    font-size: 23px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.gift-description{
+    font-weight: 400;
+    font-size: 15px;
+    color: rgb(76, 73, 73);
+}
+
+.gift-see-more{
+    text-decoration: underline;
+    font-weight: 400;
+    font-size: 14px;
+}

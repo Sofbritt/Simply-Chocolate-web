@@ -1,7 +1,11 @@
 .footer {
     background-color: rgb(53, 34, 22);
     height: 500px;
-    margin-top: 50px;
+    margin-top: 150px;
+}
+
+.footer-list-title {
+    margin-top: 100px;
 }
 
 .footer-each-list {
@@ -16,14 +20,20 @@
     font-size: 12px;
     margin-right: 50px;
     margin-top: 35px;
+
 }
 
-.footer-icons{
+.footer-icons {
     display: flex;
-    justify-content:start;
+    justify-content: start;
     margin-top: 25px;
 }
 
-.each-icon{
+.each-icon {
     margin-left: 45px;
+}
+
+.footer-link {
+    color: rgb(148, 147, 147);
+    text-decoration: none;
 }

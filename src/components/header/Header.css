@@ -28,8 +28,8 @@
 }
 
 .header {
-    background-image: url(https://simplychocolatecph.com/cdn/shop/files/Hero_Web_desk_2024_2.png?v=1706276336&width=1400);
     height: 550px;
+    /* background-image: url("https://simplychocolatecph.com/cdn/shop/files/Hero_Web_desk_2024_2.png?v=1706276336&width=1400"); */
 }
 
 .header-menu {
@@ -60,36 +60,42 @@
     color: black;
 }
 
-/* .dropdown {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
 
-} */
 
 .list {
     display: none;
+   
 }
 
-.dropdown:hover .list {
+.menu-links {
+    color: white;
+}
+
+.menu-links:hover {
+    color: black;
+}
+
+.has-dropdown {
+    position: relative;
+    margin-top: 15px;
+}
+
+.has-dropdown:hover .list {
     display: flex;
     justify-content: center;
-    background-color: white;
-    width: 80%;
-    height: 450px;
-    margin-right: 600px;
+    align-items: center;
+    width: 300px;
     position: absolute;
+    top: 20px;
+    color: black;
 }
 
-
-.search-div {
+.icons-div {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
 }
-
 
 .header-icons {
     float: left;
@@ -103,57 +109,67 @@
     text-decoration: none;
     font-weight: 600;
     font-size: 20px;
+    cursor: pointer;
 }
-
-.premium {
-    color: white;
-    margin-top: 120px;
-    width: 480px;
-    padding: 15px;
-    margin-left: 35px;
-}
-
-.big-title {
-    font-size: 50px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
-}
-
-.shop {
-    font-size: 13px;
-    font-weight: 600;
-    color: black;
-    border-radius: 5px;
-    border: 1px solid white; 
-    background: white;
-    width: 110px;
-    height: 45px;
-    margin-top: 50px;
-    position: relative;
-}
-
-.shop::before{
-    position: absolute;
-    content: '';
-    width:0;
-    height: 100%;
-    top: 0;
-}
-
-.shop:hover{
-    color: white;
-    transition: 1s;
-    background: none;
-}
-
-.shop1:hover::before{
-    width: 100%;
-    left: 0;
-    transition: 1s;
-    z-index: -1;
-}
-
 
 .header-icons {
     display: flex;
     justify-content: space-evenly;
+}
+
+.menu-links {
+    text-decoration: none;
+}
+
+.menu-links:hover {
+    text-decoration: underline;
+}
+
+.search-div {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.219);
+    height: 100vh;
+    z-index: 99999999999;
+    border: none;
+}
+
+
+.input-div {
+    background-color: white;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    color: black;
+    justify-content: center;
+}
+
+.search-input {
+    width: 80%;
+    height: 50px;
+    border: none;
+    margin-top: 45px;
+    font-size: 17px;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.sec-search-icon {
+    margin-top: 45px;
+}
+
+.close-search {
+    cursor: pointer;
+    color: black;
+    font-size: 20px;
+    margin-right: 45px;
+}
+
+.search-input-close {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+
 }
